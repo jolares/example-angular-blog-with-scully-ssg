@@ -38,7 +38,16 @@ are found below.
 ## **Development server**
 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## **Run Angular Static Site App with Blog Posts**
+
+Run `npm run start` for a dev server. Navigate to `http://localhost:1668/`. The app will automatically reload if you change any of the source files.
+
+
+## **Run Angular App Only (without SSG, blog posts)**
+
+
+Run `npm run _start:ng` for an angular dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
 
 
 ## **Code scaffolding**
