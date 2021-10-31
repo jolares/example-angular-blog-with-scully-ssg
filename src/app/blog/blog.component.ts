@@ -5,7 +5,23 @@ declare var ng: any;
 
 @Component({
   selector: 'app-blog',
-  templateUrl: './blog.component.html',
+  template: `
+    <h3>BlogComponent!</h3>
+
+    <h4>
+      BlogComponent injects Blog Posts (static HTML generated from Markdown) 
+      within the following horizontal rules.
+    </h4>
+
+    <hr>
+
+    <!-- This is where Scully will inject the static HTML Blog Post -->
+    <scully-content></scully-content>
+    
+    <hr>
+
+    <h4>BlogComponent template continues</h4>
+  `,
   styleUrls: ['./blog.component.scss'],
   preserveWhitespaces: true,
   encapsulation: ViewEncapsulation.Emulated
