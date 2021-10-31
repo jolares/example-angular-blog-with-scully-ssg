@@ -1,19 +1,37 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
+##
+## Compiled output
+##
+
 /dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
+# scully config
+**/**/scully.**.config.js
+# scully logs
+**/**/scully.log
 
-# dependencies
+
+##
+## Dependencies
+##
+
 /node_modules
 
-# profiling files
+##
+## profiling files
+##
+
 chrome-profiler-events*.json
 
-# IDEs and editors
+
+##
+## IDEs and editors
+##
+
 /.idea
 .project
 .classpath
@@ -22,7 +40,7 @@ chrome-profiler-events*.json
 .settings/
 *.sublime-workspace
 
-# IDE - VSCode
+## IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -30,7 +48,11 @@ chrome-profiler-events*.json
 !.vscode/extensions.json
 .history/*
 
-# misc
+
+##
+## misc
+##
+
 /.sass-cache
 /connect.lock
 /coverage
@@ -40,6 +62,10 @@ yarn-error.log
 testem.log
 /typings
 
-# System Files
+
+##
+## System Files
+##
+
 .DS_Store
 Thumbs.db
