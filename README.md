@@ -109,3 +109,10 @@ To use this command, you need to first add a package that implements end-to-end 
 - [Jamstack](https://jamstack.org/)
 
 
+## TODOs
+
+- integrate CDN and Google Analytics
+- ensure perfect accessibility score
+- Add tests
+- Add Link to Blog post
+
