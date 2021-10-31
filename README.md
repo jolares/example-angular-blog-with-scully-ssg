@@ -113,6 +113,8 @@ To use this command, you need to first add a package that implements end-to-end 
 
 - integrate CDN and Google Analytics
 - ensure perfect accessibility score
+- Add Responsive
+- Add Mobile Site
 - Add tests
 - Add Link to Blog post
 
