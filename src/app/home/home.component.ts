@@ -9,6 +9,8 @@ import { takeUntil } from 'rxjs/operators';
   template: `
     <h1>HomeComponent!</h1>
 
+    <h2>Blog Posts [Metadata]</h2>
+
     <ul>
       <li *ngFor="let blogLink of blogLinks$ | async">
         <a [routerLink]="blogLink.route">

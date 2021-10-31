@@ -4,13 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run _build:ng && npm run _stop && npm run _build:ssg",
+    "build": "npm run _build:ng && npm run _build:ssg",
     "serve": "npm run _stop && npm run _serve:ssg",
     "test:e2e": "ng test",
     "watch": "ng build --watch --configuration development",
     "_serve:ssg": "npx scully serve --",
     "_build:ng": "ng build",
-    "_build:ssg": "npx scully --",
+    "_build:ssg": "npx scully -- --scanRoutes",
     "_stop": "npx scully killServer"
   },
   "private": true,
